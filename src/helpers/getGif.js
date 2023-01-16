@@ -12,6 +12,6 @@ export const getGifs = async (categoria) => {
       url: img.images?.downsized_medium.url,
     };
   });
-
+ console.log('prueba de rama')
   return gifs;
 };
